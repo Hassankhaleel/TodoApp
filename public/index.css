@@ -1,0 +1,199 @@
+* {
+    font-family: 'Geologica', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(255, 180, 0);
+    background: radial-gradient(circle, rgba(255, 179, 0, 0.378) 60%, rgb(255, 255, 255) 61%, rgba(255, 247, 238, 1) 61%, rgba(255, 251, 247, 1) 80%);
+    /* background: radial-gradient(circle, rgba(13, 0, 6, 1) 0%, rgb(0, 108, 239) 89%); */
+}
+
+.div {
+
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    text-align: center;
+    padding: 20px;
+
+    justify-content: center;
+    border-radius: 30px;
+    height: 550px;
+    width: 400px;
+    background-color: rgb(255, 132, 0);
+
+
+}
+
+.div i {
+    color: rgb(255, 255, 255);
+
+    margin-left: 8px;
+}
+
+.div h1 {
+
+    margin-right: 15px;
+    color: white;
+}
+
+.div input {
+    box-shadow: rgba(0, 0, 0, 0.24) 6px 4px 0px;
+    padding-left: 20px;
+    border-style: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 69%;
+}
+
+.div button {
+    background-color: rgb(0, 41, 92);
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 03px 0px;
+    border: none;
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 51px;
+    height: 53px;
+
+
+}
+
+.div button:hover {
+    cursor: pointer;
+    background-color: rgb(3, 46, 99);
+
+}
+
+.div button i {
+    color: rgb(255, 255, 255);
+}
+
+.dlt {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.lis_div {
+    height: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+/* js css*/
+.lis_div {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.lis_div li i {
+
+    height: auto;
+    width: 100%;
+    margin: 5px;
+    color: black;
+}
+
+.lis_div li {
+    box-shadow: rgba(0, 0, 0, 0.24) 6px 4px 10px;
+
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 40PX;
+    margin: 10PX;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+    height: auto !important;
+    background-color: rgb(255, 255, 255);
+}
+
+.lis_div ul {
+
+
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+:checked {
+    text-decoration: line-through;
+    accent-color: rgb(0, 0, 0);
+}
+
+#checkbox_css {
+    margin: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#checkbox_css input {
+    background-color: rgb(62, 37, 4);
+
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0px !important;
+    text-align: center !important;
+    box-shadow: none !important;
+    height: 13px;
+    width: 13px;
+
+
+}
+
+.btn_wrapper {
+    align-items: end;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+
+.li-line {
+
+    text-decoration: line-through;
+}
+
+.ulList {
+    opacity: 0.4;
+}
+
+
+
+
+
+/*================== CRICEL UI============= */
+
+.left {
+    border-radius: 30% 70% 60% 40% / 45% 69% 31% 55%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
